@@ -311,7 +311,7 @@ li a {
         margin: 50px;
         background-image: url("../images/runbuddy.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: right;
     }
     .store-project {
         width: 250px;
