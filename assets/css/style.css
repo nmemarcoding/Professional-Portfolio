@@ -237,6 +237,18 @@ li a {
 }
 
 
+/* test */
+
+@media(hover: hover) and (pointer: fine) {
+    .project-item:hover {
+        transform: scale(1.05);
+    }
+}
+
+
+/* end of test */
+
+
 /* ABOUT SECTION */
 
 .about-container {
