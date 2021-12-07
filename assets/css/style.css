@@ -335,7 +335,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+        background-image: url("../images/pexels-pixabay-256502.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -347,7 +347,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+        background-image: url("../images/pexels-antonio-batinić-4164418.jpg");
         background-size: cover;
         background-position: center;
     }
