@@ -73,7 +73,7 @@ li a {
     position: relative;
     background-image: url("../images/base-img.jpeg");
     background-size: cover;
-    background-position: right;
+    background-position: center;
     height: 100%;
     width: 100%;
     margin-top: 0vh;
