@@ -62,3 +62,16 @@ THEN the UI scrolls to the corresponding section
 
 >THEN I am presented with a responsive layout that adapts to my viewport
 Mock
+
+## Mock-Up
+<img width="914" alt="Screen Shot 2021-11-30 at 9 14 18 AM" src="https://user-images.githubusercontent.com/94582549/145452916-d485322d-a9c4-4611-9d29-f93da7c2f328.png">
+
+<img width="902" alt="Screen Shot 2021-11-30 at 9 14 31 AM" src="https://user-images.githubusercontent.com/94582549/145453013-fdffbfb3-43ae-45ea-ac7a-f750ccaf6724.png">
+
+<img width="863" alt="Screen Shot 2021-11-30 at 9 14 57 AM" src="https://user-images.githubusercontent.com/94582549/145453077-45246fe8-405a-4481-a646-99dbb508966f.png">
+
+<img width="687" alt="Screen Shot 2021-11-30 at 9 15 05 AM" src="https://user-images.githubusercontent.com/94582549/145453114-3f7a0ce6-1360-40d3-9540-02c5cc81eb7c.png">
+
+<img width="909" alt="Screen Shot 2021-11-30 at 9 15 16 AM" src="https://user-images.githubusercontent.com/94582549/145453179-b1f791d3-36c7-4778-88b7-fb88d24ed41d.png">
+
+
