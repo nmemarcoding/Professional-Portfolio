@@ -158,7 +158,7 @@ li a {
 }
 
 .office-project {
-    width: 400px;
+    width: 900px;
     height: 400px;
     background: #fff;
     position: relative;
@@ -208,7 +208,8 @@ li a {
 }
 
 .text-container:hover {
-    height: 300px;
+    min-height: 100px;
+    height: auto;
     overflow: auto;
 }
 
@@ -285,6 +286,11 @@ li a {
     width: 40%;
     font-size: 1.5rem;
     margin-left: 100px;
+}
+
+.office-project {
+    background-image: url("../images/runbuddy-m.jpg");
+    background-position: left;
 }
 
 
