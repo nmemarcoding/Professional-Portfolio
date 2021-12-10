@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+:root {
+    --blue-text: #86ddff;
+    --darl-blue: #002b8f;
+    --mid-blue: #3ba0ff;
+    --mid-gray: #506686;
+    --main-background: #F0EFF7;
+}
+
+
+/* navbar */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #373A44;
+    color: #373A44;
+    padding: 10px 0;
+}
+
+.web-header {
+    background-color: var(--blue-text);
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 40px;
+    border-bottom: 1px solid;
+    color: var(--blue-text);
+}
+
+
+/* hero section*/
+
+.hero {
+    height: 200px;
+    border-bottom: 1px solid;
+    position: relative;
+    background-color: #87DEFF;
+    background: -webkit-radial-gradient(left, #87DEFF, #506786);
+    background: -moz-radial-gradient(left, #87DEFF, #506786);
+    background: radial-gradient(to right, #87DEFF, #506786);
+}
+
+.here-header {
+    background-color: var(--blue-text);
+    width: 200px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding-left: 5px;
+}
+
+
+/* End of hero section */
+
+
+/* About me section */
+
+.about-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-me {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    color: var(--mid-gray);
+    border-right: 3px solid var(--mid-gray);
+}
+
+.about-content-container {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.profile-img {
+    height: 200px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.about-text {
+    display: flex
+}
+
+.about-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+
+/* End of about me section */
+
+
+/* work section */
+
+.work-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.work {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    color: var(--mid-gray);
+    border-right: 3px solid var(--mid-gray);
+}
+
+.work-content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.work-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-size {
+    width: 400px;
+    height: 200px;
+    border: 1px solid var(--blue-text);
+    margin-bottom: 10px;
+}
+
+.first-project {
+    flex: 1 100%;
+    background-image: url("../images/runbuddy-m.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.project-size:hover {
+    transform: scale(1.05);
+}
+
+.second-project {
+    background-image: url("../images/pexels-pixabay-256502.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.third-project {
+    background-image: url("../images/pexels-photo-177598.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth-project {
+    background-image: url("../images/pexels-antonio-batinić-4164418.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fifth-project {
+    background-image: url("../images/pexels-photo-907487.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* end of work section */
+
+
+/* contact me section */
+
+.contact-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-me {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    color: var(--mid-gray);
+    border-right: 3px solid var(--mid-gray);
+}
+
+.contact-content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.contac-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contac-list a {
+    justify-content: space-around;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    color: var(--mid-gray);
+}
+
+
+/* end of contact me */
+
+
+/* Mobile View */
+
+@media(max-width: 768px) {
+    .about-container {
+        display: block;
+    }
+    .nav-logo {
+        padding-top: 14px;
+    }
+    .about-me {
+        text-align: center;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .about-me h2 {
+        border-bottom: solid var(--mid-gray);
+    }
+    .about-content {
+        display: block;
+    }
+    .about-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 20px;
+    }
+    .work-container {
+        display: block;
+    }
+    .work {
+        text-align: center;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .work h2 {
+        border-bottom: solid var(--mid-gray);
+    }
+    .work-content-container {
+        justify-content: center;
+    }
+    .first-project {
+        flex: none;
+    }
+    .contact-container {
+        display: block;
+    }
+    .contact-me {
+        text-align: center;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contact-me h2 {
+        border-bottom: solid var(--mid-gray);
+    }
+    div.nav-container {
+        justify-content: center;
+    }
+    ul.nav-list {
+        justify-content: center;
+    }
+    .web-header {
+        margin-bottom: 20px;
+    }
+    .nav-list li {
+        margin-bottom: 10px;
+    }
+    div.about-content {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
