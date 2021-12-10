@@ -295,6 +295,10 @@ body {
     .work-content-container {
         justify-content: center;
     }
+    .work-content {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
     .first-project {
         flex: none;
     }
