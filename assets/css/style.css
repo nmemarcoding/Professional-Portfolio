@@ -257,12 +257,23 @@ body {
 /* Mobile View */
 
 @media(max-width: 768px) {
-    .about-container {
-        display: block;
-    }
+    /* mobile nav */
     .nav-logo {
         padding-top: 14px;
     }
+    ul.nav-list {
+        justify-content: center;
+    }
+    .web-header {
+        margin-bottom: 20px;
+    }
+    .nav-list li {
+        margin-bottom: 10px;
+    }
+    div.nav-container {
+        justify-content: center;
+    }
+    /* about me section */
     .about-me {
         text-align: center;
         border: none;
@@ -277,6 +288,9 @@ body {
     .about-content {
         display: block;
     }
+    .about-container {
+        display: block;
+    }
     .about-content-container {
         display: flex;
         justify-content: center;
@@ -284,6 +298,7 @@ body {
         align-content: center;
         padding: 0;
     }
+    /* hero section */
     .image-container {
         display: flex;
         justify-content: center;
@@ -291,6 +306,7 @@ body {
         align-content: center;
         margin-bottom: 20px;
     }
+    /* work sectiom */
     .work-container {
         display: block;
     }
@@ -318,6 +334,7 @@ body {
     .project-size {
         flex: 1 100%;
     }
+    /* contact section */
     .contact-container {
         display: block;
     }
@@ -336,18 +353,6 @@ body {
     }
     .contact-me h2 {
         border-bottom: solid var(--mid-gray);
-    }
-    div.nav-container {
-        justify-content: center;
-    }
-    ul.nav-list {
-        justify-content: center;
-    }
-    .web-header {
-        margin-bottom: 20px;
-    }
-    .nav-list li {
-        margin-bottom: 10px;
     }
     div.about-content {
         padding-left: 35px;
