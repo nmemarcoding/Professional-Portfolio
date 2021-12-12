@@ -54,6 +54,15 @@ body {
     margin-left: 40px;
     border-bottom: 1px solid;
     color: var(--blue-text);
+    background: linear-gradient( rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2), black 100%, black);
+    background-size: 100% 202%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+}
+
+.nav-link:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
 }
 
 
@@ -177,24 +186,28 @@ body {
     background-image: url("../images/pexels-pixabay-256502.jpg");
     background-size: cover;
     background-position: center;
+    flex: 1 50%;
 }
 
 .third-project {
     background-image: url("../images/pexels-photo-177598.jpeg");
     background-size: cover;
     background-position: center;
+    flex: 1 50%;
 }
 
 .fourth-project {
     background-image: url("../images/pexels-antonio-batinić-4164418.jpg");
     background-size: cover;
     background-position: center;
+    flex: 1 50%;
 }
 
 .fifth-project {
     background-image: url("../images/pexels-photo-907487.jpeg");
     background-size: cover;
     background-position: center;
+    flex: 1 50%;
 }
 
 
@@ -301,6 +314,9 @@ body {
     }
     .first-project {
         flex: none;
+    }
+    .project-size {
+        flex: 1 100%;
     }
     .contact-container {
         display: block;
