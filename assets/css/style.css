@@ -173,7 +173,7 @@ body {
 
 .first-project {
     flex: 1 100%;
-    background-image: url("../images/runbuddy-m.jpg");
+    background-image: url("../images/whatsfordinner.png");
     background-size: cover;
     background-position: top;
 }
@@ -183,7 +183,7 @@ body {
 }
 
 .second-project {
-    background-image: url("../images/pexels-pixabay-256502.jpg");
+    background-image: url("../images/runbuddy-m.jpg");
     background-size: cover;
     background-position: center;
     flex: 1 50%;
