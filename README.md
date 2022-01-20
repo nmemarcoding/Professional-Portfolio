@@ -75,6 +75,5 @@ Mock
 <img width="909" alt="Screen Shot 2021-11-30 at 9 15 16 AM" src="https://user-images.githubusercontent.com/94582549/145453179-b1f791d3-36c7-4778-88b7-fb88d24ed41d.png">
 
 ## Visit
-To vist this portfolio, go to: https://nmemarcoding.github.io/Professional-Portfolio/
-
+To vist this portfolio, go to: https://nmemarcoding.github.io/nimamemarzadeh-Portfolio/
 
