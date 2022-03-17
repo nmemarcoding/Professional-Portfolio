@@ -173,7 +173,7 @@ body {
 
 .first-project {
     flex: 1 100%;
-    background-image: url("../images/whatsfordinner.png");
+    background-image: url("../images/record.png");
     background-size: cover;
     background-position: top;
 }
@@ -183,28 +183,28 @@ body {
 }
 
 .second-project {
-    background-image: url("../images/runbuddy-m.jpg");
+    background-image: url("../images/whatsfordinner.png");
     background-size: cover;
     background-position: center;
     flex: 1 50%;
 }
 
 .third-project {
-    background-image: url("../images/pexels-photo-177598.jpeg");
+    background-image: url("../images/runbuddy-m.jpg");
     background-size: cover;
     background-position: center;
     flex: 1 50%;
 }
 
 .fourth-project {
-    background-image: url("../images/pexels-antonio-batinić-4164418.jpg");
+    background-image: url("../images/pexels-photo-177598.jpeg");
     background-size: cover;
     background-position: center;
     flex: 1 50%;
 }
 
 .fifth-project {
-    background-image: url("../images/pexels-photo-907487.jpeg");
+    background-image: url("../images/pexels-antonio-batinić-4164418.jpg");
     background-size: cover;
     background-position: center;
     flex: 1 50%;
